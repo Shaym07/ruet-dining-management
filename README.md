@@ -1,16 +1,67 @@
-# diningmanagement
+# RUET Dining Management System
 
-A new Flutter project.
+## Introduction
+The RUET Dining Management System is a modern solution designed to simplify hall management at Rajshahi University of Engineering and Technology. This system helps in meal management, student registration, payment handling, and complaint resolution with an intuitive user interface.
 
-## Getting Started
+## Features
+- **User Roles:** Separate dashboards for students and administrators.
+- **Meal Booking:** View menus, book meals, and adjust quantities.
+- **Payment Integration:** Supports Nagad, Bkash, and Rocket for secure transactions.
+- **Complaint Management:** Students can submit and track complaints with admin responses.
+- **Real-Time Notifications:** Instant updates for bookings, payments, and announcements.
+- **Analytics and Reports:** Track hall utilization, payments, and complaints.
+- **Secure Role-Specific Access:** Ensures data privacy and security.
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- **Frontend:** Flutter (Dart)
+- **Backend:** Node.js, Express.js
+- **Database:** MySQL / PostgreSQL
+- **Payment Integration:** Nagad, Bkash, Rocket
+- **Authentication:** JWT-based user authentication
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/ruet-dining-management.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd ruet-dining-management
+   ```
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Set up the backend and configure `.env` file with database credentials.
+5. Start the backend server:
+   ```sh
+   npm run server
+   ```
+6. Run the Flutter app:
+   ```sh
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Usage
+- **Student Features:**
+  - Register and log in
+  - Book meals and make payments
+  - Raise complaints and receive notifications
+- **Admin Features:**
+  - Manage student registrations
+  - Track meal bookings and payments
+  - Respond to complaints and generate reports
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`feature-branch-name`).
+3. Commit your changes.
+4. Push to your branch and create a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For inquiries, contact: [shaymimran5@gmail.com]
+
