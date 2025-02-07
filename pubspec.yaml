@@ -8,7 +8,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.6.0
+  sdk: ">=3.6.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -22,6 +22,7 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^5.0.0
   flutter_native_splash: ^2.3.3
+  flutter_launcher_icons: ^0.14.3
 
 flutter:
   uses-material-design: true
@@ -29,9 +30,15 @@ flutter:
     - assets/images/image2.jpg
     - assets/images/image7.png
     - assets/images/image3.jpeg
+    - assets/images/image4.jpg
 
 flutter_native_splash:
   color: "#ffffff"
-  image: assets/splash_logo.png
+  image: assets/images/image4.jpg
   android: true
   ios: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/image4.jpg"
